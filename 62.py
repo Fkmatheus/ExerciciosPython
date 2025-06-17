@@ -2,7 +2,7 @@
 
 def argumentos(*args, **kwargs):
     for k in args:
-        print(k,sep=" ")
+        print(k)
     
     for key, item in kwargs.items():
         print(key, item)
